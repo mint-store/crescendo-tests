@@ -1,0 +1,23 @@
+{
+  "name": "emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MyTest.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "flow-js-testing": "^0.2.3-alpha.6",
+    "jest": "^28.1.0",
+    "jest-environment-node": "^28.1.0"
+  },
+  "dependencies": {
+    "@onflow/flow-js-testing": "^0.6.0-stable-cadence.2"
+  }
+}
